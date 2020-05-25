@@ -1,0 +1,50 @@
+#reservacion-box{
+    margin: 0;
+    padding: 0;
+    position:  absolute;
+    top:23%;
+    left:90%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+   
+}
+#btn-reservacion{
+    color: #fff;
+    float: next;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#reservacion-box:hover > #date-txt{
+    
+    width: 240px;
+    padding: 0 6px;
+    
+    
+}
+#reservacion-box:hover > #btn-reservacion{
+    background: #455a64;
+    
+    
+}
+#date-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    transition: 0.4s;
+}
